@@ -97,8 +97,7 @@ As learned from above, the general UKF measurement update follows the process:
 As shown in the screenshot below. The ego car is green while the other traffic cars are blue. The red spheres above cars represent the `(x,y)` lidar detection and the purple lines show the radar measurements with the velocity magnitude along the detected angle. The green spheres above cars represent the predicted path that cars would move in the near future.
 
 On the left-hand side, the root mean squared errors (RMSE) for position `(x,y)` and velocity `(Vx, Vy)` are calculated in realtime, which represent the prediction accuracy.
-![ukf_highway (1)](https://user-images.githubusercontent.com/31724244/180667577-c015d685-e70a-442d-b2a1-c59baa372e06.png)
-
+![image](https://user-images.githubusercontent.com/31724244/180667621-21af4e3a-e2e8-4ae4-9439-448af6f92992.png)
 
 6. Analysis and tunning parameters:
 
